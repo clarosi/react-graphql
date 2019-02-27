@@ -2,7 +2,11 @@ import React, { Component } from "react";
 
 class Booking extends Component {
   render() {
-    return <h1>The Booking page</h1>;
+    return (
+      <div className="container">
+        <h1>The booking page</h1>
+      </div>
+    );
   }
 }
 
